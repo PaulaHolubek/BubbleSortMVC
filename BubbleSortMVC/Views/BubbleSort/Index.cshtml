@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>BUBBLE SORT 10 RANDOM NUMBERS</h1>
+        @foreach (int num in ViewBag.MyNums)
+        {
+            <li>@num</li>
+        }
+    </div>
+</body>
+</html>
